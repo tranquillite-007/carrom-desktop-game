@@ -83,6 +83,7 @@ class Game extends Phaser.Scene{
     gameState.striker.setVelocityX(0);
     }
 
+
     
   }
 }
