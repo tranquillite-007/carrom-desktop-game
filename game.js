@@ -52,7 +52,7 @@ class Game extends Phaser.Scene{
   
   
     
-    gameState.striker = this.physics.add.sprite(270,gameState.strikerP1, 'striker').setOrigin(0,0).setScale(0.2);
+    gameState.striker = this.physics.add.sprite(270,gameState.strikerP2, 'striker').setOrigin(0,0).setScale(0.2);
     gameState.striker.setCollideWorldBounds(true);
   
     this.physics.add.collider(gameState.striker, walls);
@@ -60,8 +60,6 @@ class Game extends Phaser.Scene{
     this.physics.add.collider(gameState.striker, basket);
   
     gameState.cursors = this.input.keyboard.createCursorKeys();
-  
-  
   }
 
   update(){
