@@ -1,0 +1,128 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/images/avatar_1.png",
+                "type": "image",
+                "key": "avatar_1"
+            },
+            {
+                "url": "assets/images/avatar_2.png",
+                "type": "image",
+                "key": "avatar_2"
+            },
+            {
+                "url": "assets/images/carrom-board.png",
+                "type": "image",
+                "key": "carrom-board"
+            },
+            {
+                "url": [
+                    "assets/sounds/click.mp3"
+                ],
+                "type": "audio",
+                "key": "click"
+            },
+            {
+                "url": [
+                    "assets/sounds/coinsCollide.mp3"
+                ],
+                "type": "audio",
+                "key": "coinsCollide"
+            },
+            {
+                "url": [
+                    "assets/sounds/coinsCollideWall.mp3"
+                ],
+                "type": "audio",
+                "key": "coinsCollideWall"
+            },
+            {
+                "url": "assets/images/direction-arrow.png",
+                "type": "image",
+                "key": "direction-arrow"
+            },
+            {
+                "url": "src/scenes/Home.js",
+                "type": "sceneFile",
+                "key": "Home"
+            },
+            {
+                "url": "assets/images/home_button.png",
+                "type": "image",
+                "key": "home_button"
+            },
+            {
+                "url": "src/scenes/Level.js",
+                "type": "sceneFile",
+                "key": "Level"
+            },
+            {
+                "url": "assets/images/player_1_slidebar.png",
+                "type": "image",
+                "key": "player_1_slidebar"
+            },
+            {
+                "url": "assets/images/player_2_slidebar.png",
+                "type": "image",
+                "key": "player_2_slidebar"
+            },
+            {
+                "url": "assets/images/replay_button.png",
+                "type": "image",
+                "key": "replay_button"
+            },
+            {
+                "url": [
+                    "assets/sounds/rightCoinFouls.mp3"
+                ],
+                "type": "audio",
+                "key": "rightCoinFouls"
+            },
+            {
+                "url": "assets/images/score_bar.png",
+                "type": "image",
+                "key": "score_bar"
+            },
+            {
+                "url": "src/scripts/SocketManager.js",
+                "type": "script",
+                "key": "SocketManager"
+            },
+            {
+                "url": "src/scripts/SoundManager.js",
+                "type": "script",
+                "key": "SoundManager"
+            },
+            {
+                "url": "assets/images/striker.png",
+                "type": "image",
+                "key": "striker"
+            },
+            {
+                "url": [
+                    "assets/sounds/wrongCoinFouls.mp3"
+                ],
+                "type": "audio",
+                "key": "wrongCoinFouls"
+            },
+            {
+                "url": "assets/images/you_lose.png",
+                "type": "image",
+                "key": "you_lose"
+            },
+            {
+                "url": "assets/images/you_win.png",
+                "type": "image",
+                "key": "you_win"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

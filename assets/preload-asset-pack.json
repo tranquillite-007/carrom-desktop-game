@@ -1,0 +1,68 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/images/blackCoin.png",
+                "type": "image",
+                "key": "blackCoin"
+            },
+            {
+                "url": "assets/images/carrom.png",
+                "type": "image",
+                "key": "carrom"
+            },
+            {
+                "url": "assets/images/front.png",
+                "type": "image",
+                "key": "front"
+            },
+            {
+                "url": "assets/images/loading.png",
+                "type": "image",
+                "key": "loading"
+            },
+            {
+                "url": "assets/images/loading_bar.png",
+                "type": "image",
+                "key": "loading_bar"
+            },
+            {
+                "url": "assets/images/logo.png",
+                "type": "image",
+                "key": "logo"
+            },
+            {
+                "url": "src/prefab/LogoPrefab.js",
+                "type": "script",
+                "key": "LogoPrefab"
+            },
+            {
+                "url": "assets/images/play_button.png",
+                "type": "image",
+                "key": "play_button"
+            },
+            {
+                "url": "assets/images/redCoin.png",
+                "type": "image",
+                "key": "redCoin"
+            },
+            {
+                "url": "assets/images/splash_screen.png",
+                "type": "image",
+                "key": "splash_screen"
+            },
+            {
+                "url": "assets/images/whiteCoin.png",
+                "type": "image",
+                "key": "whiteCoin"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}
