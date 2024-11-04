@@ -1,22 +1,52 @@
-<!doctype html>
-<html>
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8" rel="en">
-  <style>
-  * {
-    margin:0;
-  }
-  canvas{
-    position: absolute;
-    top: 5%;
-    left: 25%;
-  }
-  </style>
-  <title>Carrom</title>
-  <script src="https://cdn.jsdelivr.net/npm/phaser@3.80.1/dist/phaser.min.js"></script>
-  <script src="game.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>Carrom</title>
+	<link rel="icon" href="assets/images/logo.png" type="image/png">
+
+	<script src="lib/phaser.min.js"></script>
+	<script src="lib/confetti.min.js"></script>
+	<script src="src/components/UserComponent.js"></script>
+	<script src="src/components/PreloadText.js"></script>
+	<script src="src/scenes/Preload.js"></script>
+	<script src="src/main.js"></script>
+
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background-image: url(./assets/images/back.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center center;
+			overflow: hidden;
+		}
+
+		canvas {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			margin: 0 !important;
+		}
+
+		#game-division {
+			max-height: calc(var(--vh, 1vh) * 100);
+		}
+
+		:root {
+			--vh: 1vh;
+		}
+	</style>
+
 </head>
+
 <body>
-  <div id="phaser-game"></div>
+	<div id="game-division"></div>
 </body>
+
 </html>

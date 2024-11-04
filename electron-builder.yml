@@ -1,0 +1,5 @@
+appId: carrom-0.0.1
+productName: carrom
+copyright: Copyright 2024 tranquillite-007
+win:
+  target: nsis

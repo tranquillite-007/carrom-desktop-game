@@ -1,14 +1,30 @@
 {
   "name": "carrom",
   "version": "1.0.0",
-  "description": "carrom game with phaser by -tranquillite",
-  "main": "game.js",
+  "description": "desktop carrom game using phaser and electron",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron .",
+    "dist": "electron-builder"
   },
-  "author": "tranquillite",
+  "build":{
+    "appId": "com.carrom.game",
+    "win": {
+      "icon": "assets/images/redCoin.png"
+    }
+  },
+  "keywords": [
+    "electron",
+    "carrom game",
+    "phaser.js",
+    "twoplayer",
+    "desktop",
+    "appllication"
+  ],
+  "author": "tranquillite-007",
   "license": "ISC",
-  "dependencies": {
-    "phaser": "^3.80.1"
+  "devDependencies": {
+    "electron": "^32.1.2",
+    "electron-builder": "^25.1.7"
   }
 }
